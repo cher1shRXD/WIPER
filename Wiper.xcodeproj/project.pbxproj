@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D15832C22DE7D4530077D861 /* SwiftUIMasonry in Frameworks */ = {isa = PBXBuildFile; productRef = D15832C12DE7D4530077D861 /* SwiftUIMasonry */; };
+		D15833182DE80A7B0077D861 /* SwiftUIMasonry in Frameworks */ = {isa = PBXBuildFile; productRef = D15833172DE80A7B0077D861 /* SwiftUIMasonry */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15832C22DE7D4530077D861 /* SwiftUIMasonry in Frameworks */,
+				D15833182DE80A7B0077D861 /* SwiftUIMasonry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = Wiper;
 			packageProductDependencies = (
-				D15832C12DE7D4530077D861 /* SwiftUIMasonry */,
+				D15833172DE80A7B0077D861 /* SwiftUIMasonry */,
 			);
 			productName = Wiper;
 			productReference = D15832922DE746710077D861 /* Wiper.app */;
@@ -101,7 +101,7 @@
 			mainGroup = D15832892DE746710077D861;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D15832C02DE7D4530077D861 /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */,
+				D15833162DE80A7B0077D861 /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D15832932DE746710077D861 /* Products */;
@@ -355,7 +355,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D15832C02DE7D4530077D861 /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */ = {
+		D15833162DE80A7B0077D861 /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ciaranrobrien/SwiftUIMasonry";
 			requirement = {
@@ -366,9 +366,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D15832C12DE7D4530077D861 /* SwiftUIMasonry */ = {
+		D15833172DE80A7B0077D861 /* SwiftUIMasonry */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D15832C02DE7D4530077D861 /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */;
+			package = D15833162DE80A7B0077D861 /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */;
 			productName = SwiftUIMasonry;
 		};
 /* End XCSwiftPackageProductDependency section */
