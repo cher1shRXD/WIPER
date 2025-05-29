@@ -1,24 +1,23 @@
-//
-//  ContentView.swift
-//  Wiper
-//
-//  Created by cher1shRXD on 5/28/25.
-//
-
 import SwiftUI
+import Photos
+import PhotosUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = PhotoViewModel()
+    @AppStorage("startPoint") private var startPoint: Int?
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if viewModel.isLoading && viewModel.photoItems.isEmpty {
+                SplashView()
+            } else {
+                if startPoint == nil {
+                    ChooseStart()
+                } else {
+                    WipeView()
+                }
+            }
         }
-        .padding()
+        .animation(.easeInOut, value: viewModel.isLoading)
     }
-}
-
-#Preview {
-    ContentView()
 }
