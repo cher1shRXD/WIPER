@@ -26,6 +26,7 @@ class PhotoViewModel: ObservableObject{
                     self.fetchPhotos()
                 } else {
                     print("사진 접근 권한이 필요합니다.")
+                    self.isLoading = false
                 }
             }
         }

@@ -267,8 +267,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WIPER;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진 정리하기에 사용됩니다.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 가져오기에 사용됩니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사용자의 사진을 삭제하는 경우 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "\"사진\"에 접근하여 사용자의 사진들을 가져와 보여주기위해 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,8 +305,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WIPER;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진 정리하기에 사용됩니다.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 가져오기에 사용됩니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사용자의 사진을 삭제하는 경우 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "\"사진\"에 접근하여 사용자의 사진들을 가져와 보여주기위해 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -26,8 +26,13 @@ struct ChooseStart: View {
                     Spacer()
                 }
                 
-                if viewModel.isLoading || viewModel.photoItems.isEmpty {
+                if viewModel.isLoading {
                     ProgressView()
+                } else if viewModel.photoItems.isEmpty {
+                    Text("사진이 없습니다 :(")
+                        .font(.system(size: 16, weight: .regular))
+                        .foregroundStyle(.gray)
+                        .padding(.top, 24)
                 }
                 
                 Masonry(.vertical, lines: 3, spacing: 4){

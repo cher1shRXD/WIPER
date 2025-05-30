@@ -8,7 +8,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            if viewModel.isLoading && viewModel.photoItems.isEmpty {
+            if viewModel.isLoading {
                 SplashView()
             } else {
                 if startPoint == nil {
