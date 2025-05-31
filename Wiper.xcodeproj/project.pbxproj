@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D15833182DE80A7B0077D861 /* SwiftUIMasonry in Frameworks */ = {isa = PBXBuildFile; productRef = D15833172DE80A7B0077D861 /* SwiftUIMasonry */; };
+		D15834592DEAB4460077D861 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D15834582DEAB4460077D861 /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D15832922DE746710077D861 /* Wiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15834582DEAB4460077D861 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +39,7 @@
 		D15832892DE746710077D861 = {
 			isa = PBXGroup;
 			children = (
+				D15834582DEAB4460077D861 /* info.plist */,
 				D15832942DE746710077D861 /* Wiper */,
 				D15832932DE746710077D861 /* Products */,
 			);
@@ -118,6 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15834592DEAB4460077D861 /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +271,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WIPER;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사용자의 사진을 삭제하는 경우 권한이 필요합니다.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "\"사진\"에 접근하여 사용자의 사진들을 가져와 보여주기위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사용자의 사진을 선택하고 삭제할 수 있도록 사진 라이브러리에 접근합니다. 예: 사진 목록을 앱에 표시하고, 사용자가 특정 사진을 선택해 삭제할 수 있습니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사용자의 사진을 선택하고 삭제할 수 있도록 사진 라이브러리에 접근합니다. 예: 사진 목록을 앱에 표시하고, 사용자가 특정 사진을 선택해 삭제할 수 있습니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,8 +309,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WIPER;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사용자의 사진을 삭제하는 경우 권한이 필요합니다.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "\"사진\"에 접근하여 사용자의 사진들을 가져와 보여주기위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사용자의 사진을 선택하고 삭제할 수 있도록 사진 라이브러리에 접근합니다. 예: 사진 목록을 앱에 표시하고, 사용자가 특정 사진을 선택해 삭제할 수 있습니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사용자의 사진을 선택하고 삭제할 수 있도록 사진 라이브러리에 접근합니다. 예: 사진 목록을 앱에 표시하고, 사용자가 특정 사진을 선택해 삭제할 수 있습니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
